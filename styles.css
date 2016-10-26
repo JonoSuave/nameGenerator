@@ -1,0 +1,36 @@
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/K88pR3goAWT7BTt32Z01m4X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+h1, form{
+	font-family: 'Shadows Into Light', cursive;
+}
+
+h2{
+	font-family: 'Open Sans';
+
+}
+
+.body-container{
+	width:100%;
+	text-align: center;
+}
+input[type=checkbox]{
+	margin-left: 50px;
+}
+input[type=checkbox]:checked{
+	color: yellow;
+}
+button{
+	border:solid 1px;
+	border-radius: 8px;
+	font-size: 80%;
+	box-shadow: 0 4px 4px 2px rgba(0,0,0,0.3);
+	opacity: .8;
+}
+
